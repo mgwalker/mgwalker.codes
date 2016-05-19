@@ -1,0 +1,24 @@
+.home {
+  padding: 1rem;
+  min-height: 290px;
+
+  h1 {
+    font-weight: bold;
+
+    small {
+      font-weight: normal;
+      font-size: 1rem;
+      color: #888;
+      display: block;
+      line-height: 1rem;
+    }
+  }
+
+  img.float {
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 1px solid #acacac;
+  }
+}

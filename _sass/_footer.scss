@@ -1,0 +1,30 @@
+.site-footer {
+  background-color: $primary-darkest;
+  color: $primary-text;
+  padding: 10px 0;
+
+  .footer-col {
+    margin: 0;
+  }
+
+  a, a:visited {
+    color: $primary-text;
+    &:hover {
+      color: $gold-lighter;
+
+      .icon svg path {
+        fill: $gold-lighter;
+      }
+    }
+
+    .icon svg path {
+      fill: white;
+    }
+  }
+
+  h2 {
+    color: $primary-text;
+    font-size: 2rem;
+
+  }
+}
