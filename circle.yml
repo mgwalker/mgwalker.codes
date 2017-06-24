@@ -14,4 +14,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws s3 sync jekyll/_site/docs s3://mgwalker.codes/ --delete
+      - aws s3 sync ./_site/docs s3://mgwalker.codes/ --delete
