@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  jekyll:
+    image: jekyll/jekyll
+    working_dir: /app
+    volumes:
+      - ./:/srv/jekyll
+    ports:
+      - 8080:4000
+    command: jekyll serve

@@ -1,17 +1,20 @@
-.blog-list {
-  .blog.card {
-    .card-title {
-      padding: 10px 20px;
-      background-color: $primary-darker;
+ul.blog-list {
+  li {
+    list-style: none;
 
-      a, a:visited, a:link {
-        color: $primary-text;
+    h1 {
+      a, a:visited {
+        color: black;
       }
     }
 
-    p {
-      padding: 0 20px;
+    .excerpt {
+      margin-left: 2em;
     }
+  }
+
+  li + li {
+    border-top: 3px dashed $primary-darker;
   }
 
   .pagination {
@@ -30,5 +33,15 @@
       margin: 0 150px;
       text-align: center;
     }
+  }
+}
+
+article.post {
+  .post-content {
+    border-top: 1px solid $color-primary-darkest;
+    margin: 0 3em;
+    margin-top: 1em;
+    padding-top: 1em;
+    max-width: 600px;
   }
 }
