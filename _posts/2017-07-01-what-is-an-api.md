@@ -24,13 +24,14 @@ in the same program forever — they can be reused by other
 programs to do whole new things.
 
 A metaphor might be a grocery store. A grocery store is an API
-for that food got there, and the design of the store helps you
-find the specific food you want. For example, you go to the
-produce section for bananas, not the dairy aisle. You don’t
-have to know how to grow bananas, how to harvest them, or how
-to ship them; you only need to know that you want them. The
-store “hides” the how so you can focus on what matters to you
-— getting some food.
+for food. You can go to the store to get food without having
+to know how that food got there, and the design of the store
+helps you find the specific food you want. For example, you
+go to the produce section for bananas, not the dairy aisle.
+You don’t have to know how to grow bananas, how to harvest
+them, or how to ship them; you only need to know that you
+want them. The store “hides” the how so you can focus on
+what matters to you — getting some food.
 
 Once you’ve got the food, you can do things with it that the
 grocery store wasn’t designed to do. For example, you could
