@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is an API?"
-date:   2017-07-01
+date:   2017-07-01 00:00:00+00:00
 category: tech
 tags:
 - tech
@@ -10,13 +10,6 @@ tags:
 - 18F
 ---
 
-> This was originally published on
-> [the 18F blog](https://18f.gsa.gov/2016/04/22/what-is-an-api/)
-> on April 22, 2016.  The target audience is non-technical folks
-> who want to understand what an API is, and why they're
-> useful.
-
----
 If you spend much time around software people, you’ll
 inevitably hear the term “API.” But what is an API, and why
 does it seem like they’re used for everything?
@@ -63,3 +56,9 @@ or the [National Institutes of Health](https://api.data.gov/docs/nih/)!
 Learn more about
 [APIs in government](https://www.digitalgov.gov/2013/04/30/apis-in-government/)
 from DigitalGov.
+
+> This was originally published on
+> [the 18F blog](https://18f.gsa.gov/2016/04/22/what-is-an-api/)
+> on April 22, 2016.  The target audience is non-technical folks
+> who want to understand what an API is, and why they're
+> useful.
