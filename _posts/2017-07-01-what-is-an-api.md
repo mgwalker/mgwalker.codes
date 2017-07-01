@@ -2,7 +2,12 @@
 layout: post
 title:  "What is an API?"
 date:   2017-07-01
-categories: api, tech, software, 18f
+category: tech
+tags:
+- tech
+- api
+- software
+- 18F
 ---
 
 > This was originally published on
