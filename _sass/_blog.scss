@@ -14,7 +14,29 @@ ul.blog-list {
   }
 
   li + li {
-    border-top: 3px dashed $primary-darker;
+    border-top: 1px solid rgba(0,0,0,0.3);
+    margin-top: 2em;
+    padding-top: 2em;
+  }
+
+  .blog {
+    .container {
+      background-color: $primary;
+      position: relative;
+
+      .time {
+        color: white;
+        text-align: center;
+        padding: 1em 0;
+        font-size: 2em;
+      }
+
+      .body {
+        background-color: white;
+        padding: 0 1em;
+        min-height: 12em;
+      }
+    }
   }
 
   .pagination {

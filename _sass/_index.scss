@@ -25,4 +25,23 @@ header {
 
 .page-content {
   padding: 10px;
+
+  .flex {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .aside {
+      background-color: #0071bc;
+      min-width: 250px;
+      max-width: 250px;
+      color: white;
+      padding: 0.5em;
+      font-weight: 100;
+
+      h2 {
+        font-weight: bold;
+      }
+    }
+  }
 }

@@ -2,23 +2,51 @@
 layout: default
 ---
 
-<ul class="blog-list">
-  {% for post in paginator.posts %}
-  <li class="blog">
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
-    <div class="excerpt">{{ post.excerpt }}</div>
-  </li>
-  {% endfor %}
-
-  <!-- Pagination links -->
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous btn">Previous</a>
-    {% endif %}
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next btn">Next</a>
-    {% endif %}
-    <div class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+<div class="flex" style="">
+  <div class="aside">
+    <h2>A Kansas City software nerd</h2>
+    <p>
+      I'm a (mostly career) civil servant doing software work for the
+      federal government.
+    </p>
+    <p>
+      At some point, I've done C++, Java, C#, Objective-C, Javascript,
+      Python, and even a smattering of Ruby.
+    </p>
+    <p>
+      My work has included disaster response, enterprise data,
+      security systems, force protection, child welfare, and Medicaid
+      IT systems.
+    </p>
+    <p>
+      I like explaining software and dev topics to people who aren't
+      devs, helping demystify my world.
+    </p>
+    <p>
+      This is just a blog I do.
+    </p>
   </div>
-</ul>
+
+  <div style="">
+    <ul class="blog-list">
+      {% for post in paginator.posts %}
+      <li class="blog">
+        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time></p>
+        <div class="excerpt">{{ post.excerpt }}</div>
+      </li>
+      {% endfor %}
+
+      <!-- Pagination links -->
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="previous btn">Previous</a>
+        {% endif %}
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next btn">Next</a>
+        {% endif %}
+        <div class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+      </div>
+    </ul>
+  </div>
+</div>
