@@ -1,0 +1,82 @@
+work:
+  - title: Software engineer
+    employer: 18F
+    time: January 2016 - present
+    intro: >-
+      I primarily worked in a consulting capacity, initially as a software
+      development technical lead on acquisitions projects and later as a
+      consultant directly with our partner agencies.  In June 2018, I was
+      named backend dev lead for 18F.
+    bullets:
+      - I served as a software development expert on procurements, helping set
+        the technical requirements, draft procurement documents, select
+        vendors, and help the product team oversee vendor performance.
+      - I worked with state partners on planning modernizations of their child
+        welfare IT systems.  My role was largely to help them think through
+        what a new system would look like and how they'd go about building it
+        using modern techniques and approaches.
+      - I worked with state partners on modernizing their Medicaid
+        mechnization systems (MMIS) as well as their eligibility and enrollment
+        systems (E&E).  My primary responsibilities were to help the states
+        understand what they needed and then show them how they could do it,
+        ranging from teaching them about agile development to devops to vendor
+        selection.
+      - I led development on a tool for the Centers for Medicare and Medicaid
+        Services to streamline the process by which states request federal
+        funding for their Medicaid IT systems.
+  - title: Computer engineer
+    employer: US Army Corps of Engineers
+    time: June 2011 - January 2016
+    bullets:
+      - I developed of a mobile app to collect and submit registrations for the
+        Blue Roof program, which puts tarps on damaged roofs after a major wind
+        disaster such as a hurricane.  The goal was to reduce the time between
+        when someone notified the Corps of roof damage to when a tarp was
+        placed.  The program was not used again until 2017, when it was
+        deployed to Florida and Puerto Rico, where the app worked as intended
+        and cut the delay to just a couple of days.
+      - I led a small team working on tools to integrate various battlefield
+        sensors into a unified display.  Our work was centered around the
+        common network protocol and a Google Earth-like visualization.  We
+        later expanded our work to include overlying video from small aerial
+        drones onto the map so soldiers could visually identify points of
+        interest indicated by radar.
+      - I led a team building a tradespace analysis tool for finding optimal
+        vehicle designs.  An optimal vehicle design is one that can be varied
+        significantly and still meet a set of baseline performance criteria.
+        That way, a vehicle can be altered over time to fit specific mission
+        needs and still satisfy the basic requirements.  We were able to
+        increase vehicle design considerations from hundreds to hundreds of
+        millions.
+  - title: Software analyst
+    employer: Intergraph
+    time: June 2007 - June 2011
+    bullets:
+      - I worked on a team building the video components of a physical security
+        software suite.  Our team was responsible for controlling cameras,
+        displaying live video, and recording video based on external events.  I
+        was primarily responsible for the backend system that commanded the
+        cameras and responded to security events, though I did also work on the
+        frontend system that displayed video.
+      - I worked on the tool used to configure the software suite after a round
+        of downsizing.  I was able to fix a number of longstanding bugs before
+        handing the product off to another teammate.
+  - title: Computer engineer
+    employer: US Army Corps of Engineers
+    time: June 2005 - June 2007
+    intro: >-
+      I also interned at the Corps of Engineers the summers of 2003 and 2004.
+    bullets:
+      - I worked on a team to develop an enterprise geospatial data repository
+        for the Corps of Engineers.  In addition, I led development of an
+        ArcGIS plugin to visualize the data in the repository.
+      - I led the development effort to press our geospatial data repository
+        into use following Hurricane Katrina.  I was given the Army Commander's
+        Medal for Civilian Service as well as the ERDC Commander's Medal for
+        our work on the Katrina data project.
+education:
+  schools:
+    - name: Mississippi State University
+      degrees:
+        - title: M.S., Computer Engineering (incomplete)
+        - title: B.S., Computer Engineering, suma cum laude, 2004

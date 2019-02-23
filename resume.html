@@ -1,0 +1,37 @@
+---
+layout: default
+
+# This formatting kinda sucks becuase my editor keeps cramming lines together
+# even though semantically it'd be preferable to put them on separate lines. I
+# guess I need a plugin that understands templated HTML. 🤷🏼‍♂️
+---
+
+<h1 class="mx0">Work</h1>
+
+{% for job in site.data.resume.work %}
+
+<p>
+  <h2>{{ job.employer }} - {{ job.title }}</h2>
+  {{ job.time }}
+</p>
+
+<p class="ml2">
+  {% if job.intro != ''%}{{ job.intro }}{% endif %}
+  
+  <ul>{% for bullet in job.bullets%}<li>{{ bullet }}</li>{% endfor %}</ul>
+</p>
+
+{% endfor %}
+
+<h1 class="mx0 border-top mt3 pt3">Education</h1>
+
+{% for school in site.data.resume.education.schools %}
+
+<h2>{{ school.name }}</h2>
+<div class="ml3">
+  {% for degree in school.degrees %}
+  <p class="m0">{{ degree.title }}</p>
+  {% endfor %}
+</div>
+
+{% endfor %}

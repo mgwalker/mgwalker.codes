@@ -1,19 +1,73 @@
-<!DOCTYPE html>
-<html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>mgwalker.codes</title>
+    <link href="/assets/main.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Mukta+Mahee"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      html {
+        font-family: 'Mukta Mahee', sans-serif;
+        font-size: 10pt;
+      }
 
-  {% include head.html %}
+      body {
+        font-size: 1.4rem;
+      }
 
+      h1 {
+        margin: 0.5rem;
+      }
+
+      .icon svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+      }
+
+      .icon svg path {
+        fill: white;
+      }
+
+      .fs1 {
+        font-size: 1rem;
+      }
+    </style>
+  </head>
   <body>
+    <header class="bg-blue white p1">
+      <div class="flex flex-column">
+        <h1 class="mb0">
+          <a href="/" class="white" style="text-decoration: none;"
+            >mgwalker.codes</a
+          >
+        </h1>
+        <span class="ml1">Greg Walker, engineer @ 18F</span>
+      </div>
+    </header>
+    <nav class="bg-blue muted white p1 flex justify-center">
+      <span class="mx1 border-right pr1">
+        <a href="/resume" class="white">resume</a>
+      </span>
+      <span class="mx1">
+        <a href="/writings" class="white">things I've written</a>
+      </span>
+    </nav>
 
-    {% include header.html %}
+    <main style="margin: 2rem auto; max-width: 600px;">{{ content }}</main>
 
-    <div class="page-content">
-      {{ content }}
-    </div>
-
-    {% include footer.html %}
-
-    <script type="text/javascript" src="/assets/uswds/js/uswds.min.js"></script>
+    <footer class="bg-black white p1 fs1">
+      <a href="https://github.com/mgwalker" class="white mr3">
+        <span class="icon">{% include github.svg %}</span>
+        <span class="username">mgwalker</span>
+      </a>
+      <a href="https://twitter.com/darkcooger" class="white">
+        <span class="icon">{% include twitter.svg %}</span>
+        <span class="username">darkcooger</span>
+      </a>
+    </footer>
   </body>
-
 </html>
