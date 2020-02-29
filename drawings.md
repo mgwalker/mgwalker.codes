@@ -4,4 +4,4 @@ layout: default
 
 # Some stuff I've drawn
 
-- [The alphabet of animals](alphabet-animals) (in progress)
+- [The alphabet of animals](/drawings/alphabet-animals) (in progress)
