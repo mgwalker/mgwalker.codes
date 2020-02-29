@@ -6,20 +6,20 @@ layout: default
 
 ---
 
-![A: ant](A.jpg)
+![A: ant](/drawings/alphabet-animals/A.jpg)
 
 ---
 
-![B: bison](B.jpg)
+![B: bison](/drawings/alphabet-animals/B.jpg)
 
 ---
 
-![C: camel](C.jpg)
+![C: camel](/drawings/alphabet-animals/C.jpg)
 
 ---
 
-![D: donkey](D.jpg)
+![D: donkey](/drawings/alphabet-animals/D.jpg)
 
 ---
 
-![E: electric eel](E.jpg)
+![E: electric eel](/drawings/alphabet-animals/E.jpg)
