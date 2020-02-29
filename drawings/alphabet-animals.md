@@ -23,3 +23,7 @@ layout: default
 ---
 
 ![E: electric eel](/drawings/alphabet-animals/E.jpg)
+
+---
+
+![F: fox](/drawings/alphabet-animals/F.jpg)
