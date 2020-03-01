@@ -27,3 +27,7 @@ layout: default
 ---
 
 ![F: fox](/drawings/alphabet-animals/F.jpg)
+
+---
+
+![G: goat](/drawings/alphabet-animals/G.jpg)
