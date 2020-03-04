@@ -31,3 +31,11 @@ layout: default
 ---
 
 ![G: goat](/drawings/alphabet-animals/G.jpg)
+
+---
+
+![H: hippo](/drawings/alphabet-animals/H.jpg)
+
+---
+
+![I: Iberian ibex](/drawings/alphabet-animals/I.jpg)
