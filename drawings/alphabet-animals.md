@@ -39,3 +39,23 @@ layout: default
 ---
 
 ![I: Iberian ibex](/drawings/alphabet-animals/I.jpg)
+
+---
+
+![J: jellyfish](/drawings/alphabet-animals/J.jpg)
+
+---
+
+![K: kiwi](/drawings/alphabet-animals/K.jpg)
+
+---
+
+![L: lemur](/drawings/alphabet-animals/L.jpg)
+
+---
+
+![M: moose](/drawings/alphabet-animals/M.jpg)
+
+---
+
+![N: narwhal](/drawings/alphabet-animals/N.jpg)
