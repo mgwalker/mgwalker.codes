@@ -59,3 +59,15 @@ layout: default
 ---
 
 ![N: narwhal](/drawings/alphabet-animals/N.jpg)
+
+---
+
+![O: opossum](/drawings/alphabet-animals/O.jpg)
+
+---
+
+![P: penguins](/drawings/alphabet-animals/P.jpg)
+
+---
+
+![Q: quokka](/drawings/alphabet-animals/Q.jpg)
