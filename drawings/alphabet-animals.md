@@ -71,3 +71,11 @@ layout: default
 ---
 
 ![Q: quokka](/drawings/alphabet-animals/Q.jpg)
+
+---
+
+![R: robber (raccoon)](/drawings/alphabet-animals/R.jpg)
+
+---
+
+![S: sloth](/drawings/alphabet-animals/S.jpg)
