@@ -79,3 +79,23 @@ layout: default
 ---
 
 ![S: sloth](/drawings/alphabet-animals/S.jpg)
+
+---
+
+![T: turtle](/drawings/alphabet-animals/T.jpg)
+
+---
+
+![U: unimaginary horned horse (unicorn)](/drawings/alphabet-animals/U.jpg)
+
+---
+
+![V: vulture](/drawings/alphabet-animals/V.jpg)
+
+---
+
+![W: walrus](/drawings/alphabet-animals/W.jpg)
+
+---
+
+![X: xenomorph](/drawings/alphabet-animals/X.jpg)
