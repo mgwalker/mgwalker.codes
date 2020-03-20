@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="grid-container">
+  {% for animal in site.data.animals %}
+  <div class="grid-cell">
+    <img alt="{{animal.letter}}: {{animal.name}}" src="/drawings/alphabet-animals/{{animal.letter}}.jpg">
+  </div>
+  {% endfor %}
+</div>
+
+<script type="text/javascript">
+  const shadowbox = document.getElementById('shadowbox');
+
+  document.body.addEventListener('click', () => {
+    shadowbox.setAttribute('style', '');
+  });
+
+  document.addEventListener('keyup', e => {
+    if(e.key === 'Escape') {
+      shadowbox.setAttribute('style', '');
+    }
+  })
+
+  const openInShadowbox = e => {
+    shadowbox.innerHTML = e.target.outerHTML;
+    shadowbox.setAttribute('style', 'display: block;');
+    e.stopPropagation();
+  }
+
+  Array.from(document.querySelectorAll('.grid-cell img')).forEach(element => {
+    element.addEventListener('click', openInShadowbox);
+  })
+</script>

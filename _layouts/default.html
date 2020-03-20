@@ -21,6 +21,23 @@
         margin: 0.5rem;
       }
 
+      #shadowbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0,0,0,0.3);
+        text-align: center;
+        z-index: 100;
+        display: none;
+      }
+
+      #shadowbox img {
+        max-height: 100%;
+        max-width: 100%;
+      }
+
       .icon svg {
         display: inline-block;
         width: 16px;
@@ -35,15 +52,35 @@
       .fs1 {
         font-size: 1rem;
       }
+
+      .grid-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: top;
+      }
+
+      .grid-cell {
+        width: calc((100% / 3) - 2px);
+        text-align: center;
+        border-top: 1px solid black;
+        padding-top: 10px;
+      }
+
+      .grid-cell img {
+        max-height: calc(100% - 10px);
+        max-width: calc(100% - 10px);
+        padding: 5px;
+      }
     </style>
   </head>
   <body>
+    <div id="shadowbox"></div>
     <header class="bg-blue white p1">
       <div class="flex flex-column">
         <h1 class="mb0">
-          <a href="/" class="white" style="text-decoration: none;"
-            >mgwalker.codes</a
-          >
+          <a href="/" class="white" style="text-decoration: none;">mgwalker.codes</a>
         </h1>
         <span class="ml1">Greg Walker, engineer @ 18F</span>
       </div>
