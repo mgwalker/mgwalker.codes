@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../../lib/base.css" />
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Arimo);
+      @import url(
+        https://fonts.googleapis.com/css?family=Droid+Serif:400,
+        700,
+        400italic
+      );
+      @import url(
+        https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,
+        700,
+        400italic
+      );
+
+      body {
+        font-family: 'HelveticaNeue', 'Droid Serif';
+        background-color: rgb(21, 35, 58);
+        color: white;
+        font-size: 16pt;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: 'HelveticaNeue', 'Arimo';
+        font-weight: bold;
+        color: rgb(65, 82, 87);
+      }
+
+      .remark-container {
+        background: white;
+      }
+      
+      .remark-slide-scaler {
+        box-shadow: none;
+        height: auto!important;
+        left: 0!important;
+        top: 0!important;
+        transform: none!important;
+        width: auto!important;
+      }
+
+      .remark-slide-content {
+        padding: 0;
+      }
+
+      .remark-slide-content p {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      .remark-slide-content img {
+        max-width: 100%;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <textarea id="source"></textarea>
+    <script src="/assets/remark-latest.min.js"></script>
+    {{ content }}
+  </body>
+</html>
